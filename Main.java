@@ -1,10 +1,9 @@
-public class Main {
-    public static void main(String[] args) {
-  
-      int x =5;
-      int y =10;
-      int sum =  x + y;
-      System.out.println("The sum is " + sum);
-    }
+public class Main{
+
+  public static void main(String[]argr){
+
+    int randomNum = (int)(Math.random() * 101); 
+    System.out.println(randomNum);
+
   }
-  
+}
